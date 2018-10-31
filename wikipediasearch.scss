@@ -1,0 +1,40 @@
+$orange: #e56a12;
+$alabaster: #efe9e7;
+$white: #ece4b7;
+$violet: #1b065e;
+
+
+body{
+	background: $orange;
+	color: $alabaster;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 25px;
+	margin: 120px 25px;
+}
+h1{
+	font-size: 50px;
+	font-family: 'Ubuntu', sans-serif;
+	color: $alabaster;
+	text-align: center;
+}
+.center
+{
+	margin: 0 10%;
+	padding: auto;
+	.search-bar{
+		border: 1px solid $violet;
+
+		input{
+			width: 400px;
+			height: 40px;
+			border-radius: 25px;
+			border: 2px solid $orange;
+			font-size: 25px;
+			font-family: 'Titillium Web', sans-serif;
+		}
+		a img{
+			padding: 10px;
+			border: 1px solid $violet;
+		}
+	}
+}
